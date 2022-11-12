@@ -35,7 +35,7 @@ def start(message):
     salvar_id('chat_ids.csv', [message.from_user.id])
     bot.send_message(message.chat.id,
                      'Olá! Tudo bem?\n Este é um bot vendedor modelo \n Deseja comprar acesso ao canal? \n Clique em '
-                     '/comprar '
+                     '\n /comprar \n Se deja mais informações clique em \n /ajuda'
                      )
 
 

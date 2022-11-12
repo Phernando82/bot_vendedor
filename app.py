@@ -47,7 +47,9 @@ def help(message):
                                       '\n'
                                       'Perguntas frequentes:\n'
                                       'Quanto tempo para receber acesso após o pagamento?\n'
-                                      'Após o pagamento o acesso é imediato'
+                                      'Após o pagamento o acesso é imediato\n'
+                                      'Quais cartões são aceitos?\n'
+                                      'Todos os cartões'
                      )
 
 

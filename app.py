@@ -54,6 +54,8 @@ def help(message):
                                       '/comprar para comprar\n'
                                       '\n'
                                       'Perguntas frequentes:\n'
+                                      'Qual é o preço?\n'
+                                      'O preço é de R$ 10,00 \n'
                                       'Quanto tempo para receber acesso após o pagamento?\n'
                                       'Após o pagamento o acesso é imediato\n'
                                       'Quais cartões são aceitos?\n'

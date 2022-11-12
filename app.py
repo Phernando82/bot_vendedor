@@ -18,12 +18,15 @@ respostas = {
     'bom dia': 'Bom dia! Em que posso ajudar?',
     'boa tarde': 'Boa tarde, em que posso ajudar?',
     'boa noite': 'Boa noite, em que posso ajudar?',
-    'boa noite': 'Boa noite, em que posso ajudar?',
     'qual é o preco?': 'O preço é de R$ 10,00',
     'qual é o preço': 'O preço é de R$ 10,00',
     'qual o preço': 'O preço é de R$ 10,00',
     'qual o preço?': 'O preço é de R$ 10,00',
-    'o preço?': 'O preço é de R$ 10,00'
+    'o preço?': 'O preço é de R$ 10,00',
+    'o preço': 'O preço é de R$ 10,00',
+    'preço': 'O preço é de R$ 10,00',
+    'preco': 'O preço é de R$ 10,00',
+
 }
 
 
@@ -97,7 +100,7 @@ def download(message):
 
 
 @bot.message_handler(func=lambda m: True)
-def tudo(message):
+def conversa(message):
     print('Mensagem: ', message.text)
     texto = message.text
     salvar_id('historico_chat_ids.csv', [message.from_user.id, message.text, datetime.now().strftime('%d/%m/%Y %H:%M')])

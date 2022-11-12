@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# arquivos
+teste.pdf
+chat_ids.csv
+historico_chat_ids.csv
+pago_chat_ids.csv

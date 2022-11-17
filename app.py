@@ -122,7 +122,9 @@ def conversa(message):
     print('Mensagem: ', message.text)
     texto = message.text
     salvar_id('historico_chat_ids.csv', [message.from_user.id, message.text, datetime.now().strftime('%d/%m/%Y %H:%M')])
-    resp = respostas.get(str(message.text).lower(), 'Não entendi. Tente novamente ou use o comando /ajuda')
+    mensagem = str(message.text).lower()
+    mensagem = mensagem.replace('é', 'e')
+    resp = respostas.get(mensagem, 'Não entendi. Tente novamente ou use o comando /ajuda')
     bot.send_message(message.from_user.id, resp)
 
 

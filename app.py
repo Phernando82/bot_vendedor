@@ -30,7 +30,17 @@ respostas = {
     'o preço': 'O preço é de R$ 10,00',
     'preço': 'O preço é de R$ 10,00',
     'preco': 'O preço é de R$ 10,00',
-
+    'quero saber o preço': 'O preço é de R$ 10,00',
+    'quero saber o preco': 'O preço é de R$ 10,00',
+    'terei acesso ao canal?': 'Sim, após o pagamento receberá um link para acesso ao canal',
+    'terei acesso ao canal': 'Sim, após o pagamento receberá um link para acesso ao canal',
+    'como faço para comprar?': 'Clique aqui: /comprar',
+    'como faço para comprar': 'Clique aqui: /comprar',
+    'como faco para comprar': 'Clique aqui: /comprar',
+    'como faco para comprar?': 'Clique aqui: /comprar',
+    'como comprar?': 'Clique aqui: /comprar',
+    'como comprar': 'Clique aqui: /comprar',
+    'quero comprar': 'Clique aqui: /comprar',
 }
 
 

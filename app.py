@@ -18,7 +18,7 @@ respostas = {
     'bom dia': 'Bom dia! Em que posso ajudar?',
     'boa tarde': 'Boa tarde, em que posso ajudar?',
     'boa noite': 'Boa noite, em que posso ajudar?',
-    'qual é o preco?': 'O preço é de R$ 10,00',
+    'Qual é o preço?': 'O preço é de R$ 10,00',
     'gostaria de saber o preço': 'O preço é de R$ 10,00',
     'gostaria de saber o preco': 'O preço é de R$ 10,00',
     'qual e o preco?': 'O preço é de R$ 10,00',

@@ -22,6 +22,7 @@ respostas = {
     'gostaria de saber o preço': 'O preço é de R$ 10,00',
     'gostaria de saber o preco': 'O preço é de R$ 10,00',
     'qual e o preco?': 'O preço é de R$ 10,00',
+    'qual é o preço?': 'O preço é de R$ 10,00',
     'qual é o preço': 'O preço é de R$ 10,00',
     'qual e o preço': 'O preço é de R$ 10,00',
     'qual o preco': 'O preço é de R$ 10,00',
